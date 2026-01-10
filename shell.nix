@@ -5,4 +5,8 @@ in pkgs.mkShell {
     openocd
     uv
   ];
+  shellHook = ''
+  source .venv/bin/activate
+  jupyter lab
+  '';
 }
