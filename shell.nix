@@ -7,6 +7,6 @@ in pkgs.mkShell {
   ];
   shellHook = ''
   source .venv/bin/activate
-  jupyter lab
+  jupyter lab3
   '';
 }
